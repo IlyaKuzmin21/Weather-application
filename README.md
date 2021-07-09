@@ -1,4 +1,5 @@
 # Weather-application
+# js + html + css
 
 list of added cities:
 1. самара     || samara
