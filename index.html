@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Погода</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+
+  <div class="main">
+    <!-- input and time -->
+    <div class="input__time">
+      <div class="input__label">
+        <input type="text" id="inp_1">
+      </div>
+      <div class="time">--</div>
+    </div>
+    <!-- end input -->
+
+    <!-- main container -->
+    <div class="container">
+
+      <!-- main weather -->
+      <div class="main__inner">
+        <div class="city__name">--</div>
+        <div class="deg">--&deg;</div>
+        <div class="img">--</div>
+        <div class="weather">--</div>
+      </div>
+      <!-- end main weather -->
+
+      <!-- information right -->
+      <div class="secondly">
+
+        <!-- feels and presure -->
+        <div class="feels__pressure">
+          <ul class="features">
+            <div class="features__feels__like">Feels__like</div>
+            <li class="feels__like">--</li>
+          </ul>
+          <ul class="features">
+            <div class="features__pressure">Pressure</div>
+            <li class="pressure">--</li>
+          </ul>
+        </div>
+        <!-- end feels and pressure -->
+
+        <!-- humiditi and wind -->
+        <div class="humidity__wind">
+          <ul class="features">
+            <div class="features__humidity">Humidity</div>
+            <li class="humidity">--</li>
+          </ul>
+          <ul class="features">
+            <div class="features__wind">Wind</div>
+            <li class="wind">--</li>
+          </ul>
+        </div>
+        <!-- end humiditi and wind -->
+
+      </div>
+      <!-- end information right -->
+      
+    </div>
+  </div>
+  <!-- end main container -->
+
+  <script src='js/weather.js'></script>
+</body>
+
+</html>
